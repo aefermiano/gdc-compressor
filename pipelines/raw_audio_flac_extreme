@@ -1,0 +1,6 @@
+compress;cat;_FILE_NAME_
+compress;rawaudioutil;--raw2wav _FILE_SIZE_
+compress;flac;--totally-silent --stdout --best --exhaustive-model-search --max-lpc-order=32 --qlp-coeff-precision-search --lax -
+
+extract;flac;--totally-silent  --stdout --decode -
+extract;rawaudioutil;--wav2raw 0

@@ -1,0 +1,6 @@
+compress;cat;_FILE_NAME_
+compress;rawaudioutil;--raw2wav _FILE_SIZE_
+compress;pipetofiles.sh;"mac INPUT_FILE OUTPUT_FILE -c5000"
+
+extract;pipetofiles.sh;"mac INPUT_FILE OUTPUT_FILE -d" "ape" "wav"
+extract;rawaudioutil;--wav2raw 0

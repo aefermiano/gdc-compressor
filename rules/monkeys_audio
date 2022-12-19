@@ -1,0 +1,3 @@
+*.bin;binary_data
+*.raw;raw_audio_monkeys_audio
+*;default

@@ -1,0 +1,6 @@
+compress;cat;_FILE_NAME_
+compress;xz;-q --stdout --compress --format=xz --memlimit-compress=_XZ_MEMORY_LIMIT_ --threads=_XZ_THREADS_ --lzma2=dict=_XZ_DICTIONARY_SIZE_,lc=3,lp=0,pb=2,mode=normal,nice=273,mf=bt4,depth=0
+
+extract;xz;-q --decompress
+
+
